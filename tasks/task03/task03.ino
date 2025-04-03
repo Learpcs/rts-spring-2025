@@ -28,14 +28,6 @@ void loop() {
 
     Serial.print("Average: ");
     Serial.print((float)average);
-    Serial.print(" us, Total Squared: ");
-    Serial.print((float)sumSquaredIntervals);
-    Serial.print(" us, Total Samples: ");
-    Serial.print((float)totalSamples);
-    Serial.print(" us, Average^2: ");
-    Serial.print((float)(average * average));
-    Serial.print(" us, Variance: ");
-    Serial.print((float)variance);
     Serial.print(" us, StdDev: ");
     Serial.print((float)standardDeviation);
     Serial.println(" us");
